@@ -1,0 +1,127 @@
+body
+{
+    font-family: 'Gloria Hallelujah', cursive;
+    background-image: radial-gradient(circle at 104.17% 95.45%, #d1fff8 0, #befff6 10%, #a7fff4 20%, #8dfff3 30%, #6cfbf2 40%, #3cf2f2 50%, #00e8f3 60%, #00dff5 70%, #00d6f9 80%, #00cefd 90%, #00c6ff 100%);
+}
+
+.custom-shape-divider-bottom-1682815510 {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1682815510 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 163px;
+}
+
+.custom-shape-divider-bottom-1682815510 .shape-fill {
+    fill: #78ACE9;
+}
+
+.custom-shape-divider-top-1682814694 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1682814694 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 158px;
+}
+
+.custom-shape-divider-top-1682814694 .shape-fill {
+    fill: #83BCFF;
+}
+    
+#start-btn
+{
+    width: 40%;
+} 
+#camera
+{
+    width:360px;
+    height: 250px;
+}
+#logo_img
+{
+    width: 150px;
+    border-radius: 100px;
+}
+#textbox
+{
+    width: 300px;
+}
+
+#SDLG
+{
+    width: 95px;
+    height: 80px;
+}
+
+:root {
+    --bg: #6b9fec;
+    --color: rgb(36, 36, 36);
+    --font: Montserrat, Roboto, Helvetica, Arial, sans-serif;
+}
+
+.wrapper {
+    padding: 1.5rem 0;
+    filter: url('#goo');
+}
+
+.button {
+    display: inline-block;
+    text-align: center;
+    background: var(--color);
+    color: var(--bg);
+    font-weight: bold;
+    padding: 1.18em 1.32em 1.03em;
+    line-height: 1;
+    border-radius: 1em;
+    position: relative;
+    min-width: 8.23em;
+    text-decoration: none;
+    font-family: var(--font);
+    font-size: 1.25rem;
+}
+
+.button:before,
+.button:after {
+    width: 4.4em;
+    height: 2.95em;
+    position: absolute;
+    content: "";
+    display: inline-block;
+    background: var(--color);
+    border-radius: 50%;
+    transition: transform 1s ease;
+    transform: scale(0);
+    z-index: -1;
+}
+
+.button:before {
+    top: -25%;
+    left: 20%;
+}
+
+.button:after {
+    bottom: -25%;
+    right: 20%;
+}
+
+.button:hover:before,
+.button:hover:after {
+    transform: none;
+}
